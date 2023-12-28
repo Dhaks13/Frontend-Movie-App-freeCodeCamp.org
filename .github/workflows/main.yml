@@ -21,6 +21,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '14'
+        
     - name: Execute JavaScript script
       env:
          API_KEY: ${{ secrets.API_KEY }}
