@@ -1,4 +1,4 @@
-const APIKEY = process.env['API_KEY'];
+const APIKEY = "7f9bbe9b5ed99f038c60db0813faa5e4";
 const APILINK = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${APIKEY}&page=1';
 const IMG_PATH = 'https://image.tmdb.org/t/p/w300_and_h450_bestv2';
 const SEARCHAPI = "https://api.themoviedb.org/3/search/movie?&api_key=${APIKEY}&query=";
